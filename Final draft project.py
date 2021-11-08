@@ -22,7 +22,7 @@ if method =="TRN":
     LCG(now)
 
 elif method=="User_input":
-    seed=int(input("numbers of generated numbers: "))
+    seed=int(input("Please enter the seed: "))
     LCG(seed)
     
 elif method=="file":
